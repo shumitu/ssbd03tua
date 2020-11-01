@@ -1,0 +1,13 @@
+version: "3"
+services:
+  mariadb:
+    build:
+      context: ./
+      dockerfile: ./docker/mariadb/dockerfile
+    ports:
+      - 3306:3306
+    container_name: mariadb
+    environment:
+      - MYSQL_DATABASE=ssbd03
+      - MYSQL_ROOT_PASSWORD=ssbd03tua
+
