@@ -1,0 +1,11 @@
+{
+  "page_title": "Lista statków",
+  "id": "Numer statku",
+  "name": "Nazwa statku",
+  "operational": "Działający",
+  "crew": "Pojemność załogi",
+  "production_year": "Rok produkcji",
+  "deactivate":"Dezaktywuj",
+  "activate": "Aktywuj",
+  "success": "Sukces"
+}

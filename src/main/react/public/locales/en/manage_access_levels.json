@@ -1,0 +1,8 @@
+{
+  "button": "Manage access levels",
+  "access_level": "Access level *",
+  "activeAccessLevels": "Active access levels are: {{accessLevels}}.",
+  "cancel": "Cancel",
+  "grant": "Grant",
+  "revoke": "Revoke"
+}

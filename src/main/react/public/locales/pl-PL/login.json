@@ -1,0 +1,7 @@
+{
+  "email": "Email",
+  "password": "Hasło",
+  "recoverPassword": "Odzyskaj hasło",
+  "register": "Załóż konto",
+  "error": "Błędny email lub hasło !"
+}

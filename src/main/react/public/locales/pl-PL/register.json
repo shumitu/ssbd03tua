@@ -1,0 +1,16 @@
+{
+  "email": "Email",
+  "password": "Hasło",
+  "page_title": "Rejestracja",
+  "repeat_password": "Powtórz hasło",
+  "first_name": "Imię",
+  "last_name": "Nazwisko",
+  "create_account": "Utwórz konto",
+  "motto": "Motto",
+  "warning": {
+    "email": "Nieprawidłowy email!",
+    "password_not_identical": "Hasła muszą być identyczne!",
+    "password_not_long_enough": "Hasło musi mieć conajmniej 8 znaków!"
+  },
+  "success": "Pomyślnie zarejestrowano konto!"
+}

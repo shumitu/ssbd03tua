@@ -1,0 +1,9 @@
+{
+  "page_title": "Login report",
+  "table_label": "List of all accounts' authorizations",
+  "account_email": "Account email",
+  "last_successful": "Last successful login",
+  "last_unsuccessful": "Last unsuccessful login",
+  "account_ip": "Account ip address",
+  "no_data": "No data for account"
+}

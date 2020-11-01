@@ -1,0 +1,9 @@
+{
+  "page_title": "Raport logowania",
+  "table_label": "Lista ostatnich autoryzacji kont",
+  "account_email": "Email konta",
+  "last_successful": "Ostatnie poprawne logowanie",
+  "last_unsuccessful": "Ostatnie niepoprawne logowanie",
+  "account_ip": "Adres ip konta",
+  "no_data": "Brak danych dla konta"
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="pl.lodz.p.it.ssbd2020_ssbd03_molPU" transaction-type="JTA">
+      <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <jta-data-source>java:/jdbc/ssbd03molDS</jta-data-source>
+    <class>pl.lodz.p.it.ssbd2020.ssbd03.entities.AccessLevel</class>
+    <class>pl.lodz.p.it.ssbd2020.ssbd03.entities.Account</class>
+    <class>pl.lodz.p.it.ssbd2020.ssbd03.entities.Application</class>
+    <class>pl.lodz.p.it.ssbd2020.ssbd03.entities.Candidate</class>
+    <class>pl.lodz.p.it.ssbd2020.ssbd03.entities.Category</class>
+    <class>pl.lodz.p.it.ssbd2020.ssbd03.entities.Employee</class>
+    <class>pl.lodz.p.it.ssbd2020.ssbd03.entities.LoginInfo</class>
+    <class>pl.lodz.p.it.ssbd2020.ssbd03.entities.Offer</class>
+    <class>pl.lodz.p.it.ssbd2020.ssbd03.entities.Review</class>
+    <class>pl.lodz.p.it.ssbd2020.ssbd03.entities.Starship</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <shared-cache-mode>NONE</shared-cache-mode>
+  </persistence-unit>
+  <persistence-unit name="pl.lodz.p.it.ssbd2020_ssbd03_mokPU" transaction-type="JTA">
+      <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <jta-data-source>java:/jdbc/ssbd03mokDS</jta-data-source>
+    <class>pl.lodz.p.it.ssbd2020.ssbd03.entities.AccessLevel</class>
+    <class>pl.lodz.p.it.ssbd2020.ssbd03.entities.Account</class>
+    <class>pl.lodz.p.it.ssbd2020.ssbd03.entities.Application</class>
+    <class>pl.lodz.p.it.ssbd2020.ssbd03.entities.Candidate</class>
+    <class>pl.lodz.p.it.ssbd2020.ssbd03.entities.Category</class>
+    <class>pl.lodz.p.it.ssbd2020.ssbd03.entities.Employee</class>
+    <class>pl.lodz.p.it.ssbd2020.ssbd03.entities.LoginInfo</class>
+    <class>pl.lodz.p.it.ssbd2020.ssbd03.entities.Offer</class>
+    <class>pl.lodz.p.it.ssbd2020.ssbd03.entities.PasswordResetToken</class>
+    <class>pl.lodz.p.it.ssbd2020.ssbd03.entities.Review</class>
+    <class>pl.lodz.p.it.ssbd2020.ssbd03.entities.Starship</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <shared-cache-mode>NONE</shared-cache-mode>
+  </persistence-unit>
+  <persistence-unit name="pl.lodz.p.it.ssbd2020_ssbd03_authPU" transaction-type="JTA">
+      <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <jta-data-source>java:/jdbc/ssbd03authDS</jta-data-source>
+    <class>pl.lodz.p.it.ssbd2020.ssbd03.entities.AuthView</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <shared-cache-mode>NONE</shared-cache-mode>
+  </persistence-unit>
+</persistence>

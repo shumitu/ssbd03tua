@@ -1,0 +1,15 @@
+{
+  "users": "Użytkownicy",
+  "users_reports": "Raport logowania",
+  "all_users": "Wszyscy",
+  "filtered_users": "Filtrowanie",
+  "offers": "Oferty",
+  "spaceships": "Nasze statki",
+  "ownAccountDetails": "Moje konto",
+  "changePassword": "Zmień hasło",
+  "add_starship": "Dodaj statek",
+  "add_offer": "Dodaj ofertę",
+  "list_starships": "Lista statków",
+  "list_own_applications": "Moje zgłoszenia"
+
+}

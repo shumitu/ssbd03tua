@@ -1,0 +1,10 @@
+{
+  "page_title": "Zgłoszenia",
+  "success": "Sukces",
+  "id": "Numer zgłoszenia",
+  "firstName": "Imię",
+  "lastName": "Nazwisko",
+  "weight": "Waga",
+  "creationDate": "Data utworzenia",
+  "categoryName": "Nazwa kategorii"
+}

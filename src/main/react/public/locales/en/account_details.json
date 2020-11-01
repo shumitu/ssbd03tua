@@ -1,0 +1,17 @@
+{
+  "email": "E-mail address",
+  "motto": "Life motto",
+  "last_successful_login": "Last successful login",
+  "last_unsuccessful_login": "Last unsuccessful login",
+  "is_activated": "Account is activated",
+  "is_confirmed": "Account is confirmed",
+  "edit": "Edit account data",
+  "first_name": "First name",
+  "last_name": "Last name",
+  "employee_number": "Employee number",
+  "page_title": "Account details",
+  "is_change_pass": "Password change required",
+  "is_admin": "Admin role",
+  "is_employee": "Employee role",
+  "is_candidate": "Candidate role"
+}

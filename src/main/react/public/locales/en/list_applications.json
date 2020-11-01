@@ -1,0 +1,10 @@
+{
+  "page_title": "Applications",
+  "success": "Success",
+  "id": "Application ID",
+  "firstName": "First name",
+  "lastName": "Last name",
+  "weight": "weight",
+  "creationDate": "Creation date",
+  "categoryName": "Category name"
+}

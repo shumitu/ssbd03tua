@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glassfish-web-app PUBLIC "-//GlassFish.org//DTD GlassFish Application Server 3.1 Servlet 3.0//EN"
+        "http://glassfish.org/dtds/glassfish-web-app_3_0-1.dtd">
+<glassfish-web-app>
+    <context-root>/</context-root>
+
+    <!--    SEKCJA MOK -->
+
+    <security-role-mapping>
+        <role-name>LIST-ACCOUNTS</role-name>
+        <group-name>ADMIN</group-name>
+    </security-role-mapping>
+    <security-role-mapping>
+        <role-name>LIST-ACCOUNTS-REPORTS</role-name>
+        <group-name>ADMIN</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>LOGIN</role-name>
+        <group-name>CANDIDATE</group-name>
+        <group-name>EMPLOYEE</group-name>
+        <group-name>ADMIN</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>DISPLAY-OWN-ACCOUNT-DETAILS</role-name>
+        <group-name>CANDIDATE</group-name>
+        <group-name>EMPLOYEE</group-name>
+        <group-name>ADMIN</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>DISPLAY-SOMEONES-ACCOUNT-DETAILS</role-name>
+        <group-name>ADMIN</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>CHANGE-OWN-PASSWORD</role-name>
+        <group-name>CANDIDATE</group-name>
+        <group-name>EMPLOYEE</group-name>
+        <group-name>ADMIN</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>CHANGE-SOMEONES-PASSWORD</role-name>
+        <group-name>ADMIN</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>EDIT-OWN-ACCOUNT</role-name>
+        <group-name>CANDIDATE</group-name>
+        <group-name>EMPLOYEE</group-name>
+        <group-name>ADMIN</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>EDIT-SOMEONES-ACCOUNT</role-name>
+        <group-name>ADMIN</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>CHANGE-ACTIVE-STATUS</role-name>
+        <group-name>ADMIN</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>SEND-CONFIRMATION-LINK</role-name>
+        <group-name>ADMIN</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>ADD-ACCESS-LEVEL</role-name>
+        <group-name>ADMIN</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>REVOKE-ACCESS-LEVEL</role-name>
+        <group-name>ADMIN</group-name>
+    </security-role-mapping>
+
+    <!--    SEKCJA MOL-->
+
+    <security-role-mapping>
+        <role-name>CHANGE-ACCESS-LEVEL</role-name>
+        <group-name>CANDIDATE</group-name>
+        <group-name>EMPLOYEE</group-name>
+        <group-name>ADMIN</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>CHANGE-OFFER-VISIBILITY</role-name>
+        <group-name>EMPLOYEE</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>DISPLAY-OFFER-DETAILS-CANDIDATE</role-name>
+        <group-name>CANDIDATE</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>DISPLAY-OFFER-DETAILS-EMPLOYEE</role-name>
+        <group-name>EMPLOYEE</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>OPEN-OFFER</role-name>
+        <group-name>EMPLOYEE</group-name>
+    </security-role-mapping>
+
+
+    <security-role-mapping>
+        <role-name>CLOSE-OFFER</role-name>
+        <group-name>EMPLOYEE</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>ADD-OFFER</role-name>
+        <group-name>EMPLOYEE</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>GET-ALL-OFFERS</role-name>
+        <group-name>EMPLOYEE</group-name>
+        <group-name>ADMIN</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>REMOVE-OFFER</role-name>
+        <group-name>EMPLOYEE</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>EDIT-OFFER</role-name>
+        <group-name>EMPLOYEE</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>APPLY-TO-OFFER</role-name>
+        <group-name>CANDIDATE</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>LIST-APPLICATIONS</role-name>
+        <group-name>EMPLOYEE</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>LIST-OWN-APPLICATIONS</role-name>
+        <group-name>CANDIDATE</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>ADD-TO-CATEGORY</role-name>
+        <group-name>EMPLOYEE</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>GET-ALL-STARSHIPS</role-name>
+        <group-name>EMPLOYEE</group-name>
+        <group-name>ADMIN</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>DISPLAY-STARSHIP-DETAILS</role-name>
+        <group-name>EMPLOYEE</group-name>
+        <group-name>ADMIN</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>EDIT-APPLICATION</role-name>
+        <group-name>CANDIDATE</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>CANCEL-APPLICATION</role-name>
+        <group-name>CANDIDATE</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>CHECK-REVIEW</role-name>
+        <group-name>EMPLOYEE</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>CHECK-MY-REVIEW</role-name>
+        <group-name>CANDIDATE</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>DISPLAY-APPLICATION-DETAILS</role-name>
+        <group-name>EMPLOYEE</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>DISPLAY-MY-APPLICATION-DETAILS</role-name>
+        <group-name>CANDIDATE</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>EDIT-STARSHIP</role-name>
+        <group-name>EMPLOYEE</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>ADD-STARSHIP</role-name>
+        <group-name>EMPLOYEE</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>ASSIGN-STARSHIP-TO-OFFER</role-name>
+        <group-name>EMPLOYEE</group-name>
+    </security-role-mapping>
+
+    <security-role-mapping>
+        <role-name>CHANGE-STARSHIP-ACTIVE-STATUS</role-name>
+        <group-name>EMPLOYEE</group-name>
+    </security-role-mapping>
+
+
+</glassfish-web-app>

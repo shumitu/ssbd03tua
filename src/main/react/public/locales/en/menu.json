@@ -1,0 +1,14 @@
+{
+  "users": "Users",
+  "users_reports": "Login report",
+  "all_users": "All users",
+  "filtered_users": "Filtered users",
+  "offers": "Offers",
+  "spaceships": "Our spaceships",
+  "ownAccountDetails": "My account",
+  "changePassword": "Change password",
+  "add_starship": "Add starship",
+  "add_offer": "Add offer",
+  "list_starships": "Starships",
+  "list_own_applications": "My applications"
+}

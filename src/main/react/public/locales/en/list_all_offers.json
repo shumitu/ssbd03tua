@@ -1,0 +1,15 @@
+{
+  "page_title": "All offers",
+  "id": "Offer number",
+  "price": "Price",
+  "hidden": "Hidden from candidates",
+  "open": "Open for applications",
+  "close": "Close for applications",
+  "totalWeight": "Total weight",
+  "destination": "Destination",
+  "open_offer": "Open offer",
+  "show": "Show",
+  "hide": "Hide",
+  "remove": "Remove",
+  "assign_starship": "Change assigned starship"
+}

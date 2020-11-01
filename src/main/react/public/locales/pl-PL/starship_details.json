@@ -1,0 +1,10 @@
+{
+  "page_title": "Szczegóły statku",
+  "name": "Nazwa statku",
+  "cargo_capacity": "Maksymalny masa załogi",
+  "crew_capacity": "Liczba miejsc dla załogi",
+  "fuel_capacity": "Pojemność zbiornika paliwa",
+  "maximum_speed": "Maksymalna prędkość",
+  "year_of_manufacture": "Rok produkcji",
+  "operational": "Sprawny"
+}

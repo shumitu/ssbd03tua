@@ -1,0 +1,7 @@
+{
+  "email": "Email",
+  "password": "Password",
+  "recoverPassword": "Forgot password?",
+  "register": "Register",
+  "error": "Wrong email or password!"
+}

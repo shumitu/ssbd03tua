@@ -1,0 +1,17 @@
+{
+  "page_title": "Users",
+  "email": "Email",
+  "active": "Active",
+  "confirmed": "Confirmed",
+  "password_change": "Force password change",
+  "access levels": "Access levels",
+  "deactivate":"Deactivate",
+  "activate": "Activate",
+  "send_confirmation": "Send confirmation link",
+  "already_confirmed": "Account already confirmed",
+  "success": "Success",
+  "change_password": "Change password",
+  "phrase_input": "Phrase that is supposed to be in first or last name:",
+  "phrase_get": "Get users",
+  "sending": "Sending link..."
+}

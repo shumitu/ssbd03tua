@@ -1,0 +1,11 @@
+{
+  "page_title": "Moje zgłoszenia",
+  "success": "Sukces",
+  "id": "ID zgłoszenia",
+  "creationDate": "Czas utworzenia",
+  "destination": "Cel",
+  "startTime": "Czas wylotu",
+  "endTime": "Czas powrotu",
+  "categoryName": "Nazwa kategorii",
+  "cancel": "Anuluj moje zgłoszenie"
+}

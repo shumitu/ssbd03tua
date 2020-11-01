@@ -1,0 +1,142 @@
+{
+  "db": {
+    "query": "Nie można wymienić danych z serwerem.",
+    "connection": "Brak połączenia z bazą danych.",
+    "transaction": "Wystąpił błąd podczas wykonywania operacji."
+  },
+  "concurrency": {
+    "resource_modified": "Zasób uległ modyfikacji w międzyczasie."
+  },
+  "account": {
+    "motto_too_long": "Motto musi być krótsze niż 128 znaków.",
+    "email_too_long": "Email musi być krótszy niż 254 znaki.",
+    "notfound": "Konto nie istnieje.",
+    "password_too_short": "Hasło jest za krótkie.",
+    "email_taken": "Ten email jest już zajęty.",
+    "activation_failed": "Wystąpił błąd podczas aktywacji.",
+    "incorrect_motto": "Motto narusza politykę znakową.",
+    "wrong_firstname": "Imię może składać się tylko z liter i musi być krótsze niż 16 znaków.",
+    "wrong_lastname": "Nazwisko może składać się tylko z liter i musi być krótsze niż 32 znaki.",
+    "wrong_password": "Hasło nie może składać się z białych znaków.",
+    "wrong_email": "Email musi być w poprawnym formacie i nie może składać się z białych znaków.",
+    "wrong_account": "Podane konto nie należy do obecnie zalogowanego użytkownika.",
+    "already_blocked": "Konto jest już zablokowane.",
+    "already_unblocked": "Konto jest już odblokowane.",
+    "already_confirmed": "Konto jest już potwierdzone.",
+    "login_info_notfound": "Dane logowania nie istnieją.",
+    "login_info_wrong_ip_address": "Adres ip użytkownika jest błędny.",
+    "not_confirmed": "Podane konto nie zostało potwierdzone."
+  },
+  "access_level": {
+    "already_granted": "Poziom dostępu jest już nadany.",
+    "not_recognized": "Poziom dostępu nie rozpoznany.",
+    "not_granted": "Użytkownik nie posiada takiego poziomu dostępu."
+  },
+  "offer": {
+    "not_found": "Nie odnaleziono oferty. Złe id lub oferta została usunięta.",
+    "already_closed": "Oferta jest już zamknięta.",
+    "already_open": "Oferta jest już otwarta.",
+    "has_applications": {
+      "delete": "Oferta nie może zostać usunięta, ponieważ zostały już do niej przypisane zgłoszenia.",
+      "edit": "Oferta nie może zostać edytowana, ponieważ zostały już do niej przypisane zgłoszenia.",
+      "assign_starship": "Statek nie może zostać przypisany, ponieważ oferta posiada przypisane zgłoszenia."
+    },
+    "already_visible": "Oferta jest już widoczna.",
+    "already_hidden": "Oferta jest już ukryta.",
+    "incorrect_description": "Opis oferty narusza politykę znakową.",
+    "incorrect_destination": "Cel podróży narusza politykę znakową.",
+    "incorrect_dates_order": "Data rozpoczęcia lotu musi poprzedzać datę zakończenia.",
+    "incorrect_start_date": "Podana data rozpoczęcia lotu jest nieprawidłowa.",
+    "incorrect_end_date": "Podana data zakończenia lotu jest nieprawidłowa.",
+    "incorrect_price": "Podana cena jest nieprawidłowa.",
+    "incorrect_total_cost": "Podany całkowity koszt jest nieprawidłowy.",
+    "incorrect_total_weight": "Podana całkowita waga jest nieprawidłowa.",
+    "delete_is_not_hidden": "Nie można usunąć oferty która nie jest ukryta.",
+    "delete_is_open": "Nie można usunąć oferty która jest otwarta.",
+    "incorrect_starship_id": "Podany id statku jest nieprawidłowy.",
+    "incorrect_starship_status": "Wybrany statek nie jest dłużej funkcjonalny.",
+    "too_long": "Podane dane są za długie.",
+    "overlapping_offer": "Podane terminy dla lotu i statku nakładają się z istniejącą ofertą."
+  },
+  "employee": {
+    "notfound": "Pracownik nie istnieje."
+  },
+  "candidate": {
+    "notfound": "Kandydat nie istnieje."
+  },
+  "change_password": {
+    "wrong_password": "Błędne hasło.",
+    "password_does_not_match": "Hasła muszą się zgadzać.",
+    "password_is_the_same": "Nowe hasło musi się różnić od poprzedniego.",
+    "cant_change_own_password": "Nie możesz zmienić w ten sposób swojego hasła.",
+    "forbidden_email": "Operacja nieudana. Próbowano zmienić hasło innego użytkownika. To może być problem z sesją.",
+    "old_password_too_short": "Stare hasło musi mieć przynajmniej 8 znaków długości.",
+    "new_password_too_short": "Nowe hasło musi mieć przynajmniej 8 znaków długości.",
+    "required": "Pole wymagane."
+  },
+  "password_reset_token": {
+    "notfound": "Link jest niepoprawny.",
+    "expired": "Czas ważności linku wygasł."
+  },
+  "transaction": {
+    "repeated_transaction_rollback": "Operacja nie mogła zostać wykonana mimo licznych prób.",
+    "transaction_rollback": "Operacja nie została wykonana."
+  },
+  "captcha": {
+    "incorrect": "Nieprawidłowy podpis reCaptcha.",
+    "cant_access_validation_server": "Błąd podczas łączenia z serwerem walidacji reCaptcha."
+  },
+  "filterPhrase": {
+    "too_long": "Fraza musi być krótsza niż 32 znaki.",
+    "incorrect": "Fraza narusza politykę znakową."
+  },
+  "validation": {
+    "email": "Nieprawidłowy email!",
+    "required": "Pole wymagane.",
+    "number": {
+      "incorrect": "Zły format.",
+      "integer": "Wartość musi być liczbą całkowitą.",
+      "not_positive_value": "Wartość musi być większa niż 0."
+    }
+  },
+  "starship": {
+    "name": {
+      "incorrect": "Nazwa statku narusza politykę znakową.",
+      "too_long": "Nazwa statku musi być krótsza niż 32 znaki.",
+      "too_short": "Nazwa statku musi składać się przynajmniej z jednego znaku.",
+      "taken": "Nazwa statu jest już zajęta."
+    },
+    "not_positive_value": "Wartość musi być większa niż 0.",
+    "year": {
+      "incorrect": "Rok produkcji musi być większy niż 2000."
+    },
+    "assigned": "Nie można edytować statku przypisanego do oferty.",
+    "assigned_self": "Ten statek jest już przypisany do tej oferty.",
+    "already_assigned": "Statek jest już przypisany do innej oferty w tym czasie.",
+    "already_active": "Statek jest już aktywny.",
+    "already_inactive": "Statek jest już nieaktywny.",
+    "not_found": "Statek o podanym id nie istnieje.",
+    "not_operational": "Statek jest wyłączony z użytku."
+  },
+  "application": {
+    "incorrect_motivational_letter": "List motywacyjny narusza politykę znakową.",
+    "incorrect_examination_code": "Numer badania lekarskiego narusza politykę znakową.",
+    "incorrect_weight": "Podana waga jest nieprawidłowa.",
+    "not_found": "Nie znaleziono zgłoszenia.",
+    "has_review": "Zgłoszenie zostało ocenione.",
+    "examination_code_too_long": "Numer badania lekarskiego musi być krótszy niż 1024 znaków.",
+    "offer_changed": "Oferta do której próbujesz się zapisać uległa zmianie.",
+    "offer_closed": "Oferta do której próbujesz się zgłosić nie przyjmuje w tym momencie zgłoszeń.",
+    "already_applied": "Zgłosiłeś/aś się już wcześniej do tej oferty."
+  },
+  "review": {
+    "not_found": "Nie znaleziono statusu zgłoszenia.",
+    "already_exists": "Zgłoszenie zostało już ocenione.",
+    "weight_limit_exceeded": "Błąd - operacja spowodowałaby przekroczenie limitu wagi.",
+    "application_changed": "Zgłoszenie uległo zmianie - wymagana ponowna weryfikacja."
+  },
+  "category": {
+    "not_found": "Nie odnaleziono danej kategorii."
+  },
+  "other": "Wystąpił niespodziewany błąd."
+}

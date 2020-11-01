@@ -1,0 +1,12 @@
+{
+  "page_title": "Add starship",
+  "name": "Name",
+  "crewCapacity": "Crew capacity",
+  "maximumWeight": "Max. passengers weight",
+  "fuelCapacity": "Fuel capacity",
+  "maximumSpeed": "Maximum speed",
+  "yearOfManufacture": "Year of manufacture",
+  "operational": "Active",
+  "success": "Starship added successfully",
+  "submit": "Add starship"
+}

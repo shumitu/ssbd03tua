@@ -1,0 +1,8 @@
+{
+  "button": "Modyfikuj poziomy dostępu",
+  "access_level": "Poziom dostępu *",
+  "activeAccessLevels": "Aktywne poziomy dostępu: {{accessLevels}}.",
+  "cancel": "Anuluj",
+  "grant": "Nadaj",
+  "revoke": "Odbierz"
+}

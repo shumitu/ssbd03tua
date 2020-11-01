@@ -1,0 +1,10 @@
+{
+  "page_title": "Starship details",
+  "name": "Starship name",
+  "cargo_capacity": "Maximum crew weight",
+  "crew_capacity": "Maximum crew members",
+  "fuel_capacity": "Fuel capacity",
+  "maximum_speed": "Maximum speed",
+  "year_of_manufacture": "Year of manufacture",
+  "operational": "Operational"
+}

@@ -1,0 +1,17 @@
+{
+  "email": "Twój adres e-mail",
+  "motto": "Twoje życiowe motto",
+  "last_successful_login": "Ostatnie udane logowanie",
+  "last_unsuccessful_login": "Ostatnie nieudane logowanie",
+  "is_activated": "Konto aktywowane",
+  "is_confirmed": "Konto potwierdzone",
+  "edit": "Edytuj dane konta",
+  "first_name": "Imię",
+  "last_name": "Nazwisko",
+  "employee_number": "Twój numer pracownika",
+  "page_title": "Szczegóły konta",
+  "is_change_pass": "Wymagana zmiana hasła",
+  "is_admin": "Rola administrator",
+  "is_employee": "Rola pracownik",
+  "is_candidate": "Rola kandydat"
+}

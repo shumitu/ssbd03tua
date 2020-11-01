@@ -1,0 +1,12 @@
+{
+  "page_title": "Dodaj statek",
+  "name": "Nazwa",
+  "crewCapacity": "Ilość członków załogi",
+  "maximumWeight": "Maksymalna waga pasażerów",
+  "fuelCapacity": "Pojemność zbiorników paliwa",
+  "maximumSpeed": "Maksymalna prędkość",
+  "yearOfManufacture": "Rok produkcji",
+  "operational": "Aktywny",
+  "success": "Pomyślnie dodano nowy statek",
+  "submit": "Dodaj statek"
+}

@@ -1,0 +1,14 @@
+{
+  "page_title": "Offer details",
+  "price": "Price",
+  "departure": "Departure",
+  "return": "Return to Earth",
+  "ship": "Spaceship",
+  "hidden": "Hidden",
+  "open": "Open",
+  "total_cost": "Total cost",
+  "total_weight": "Total weight",
+  "no_ship": "No spaceship",
+  "description": "Description",
+  "offer_applications": "Applications list"
+}

@@ -1,0 +1,14 @@
+{
+  "page_title": "Szczegóły oferty",
+  "price": "Cena",
+  "departure": "Wylot",
+  "return": "Powrót na Ziemię",
+  "ship": "Statek",
+  "hidden": "Ukryta",
+  "open": "Otwarta",
+  "total_cost": "Całkowity koszt",
+  "total_weight": "Całkowita waga",
+  "no_ship": "brak statku",
+  "description": "Opis",
+  "offer_applications": "Lista zgłoszeń"
+}

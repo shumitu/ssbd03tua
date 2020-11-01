@@ -1,0 +1,13 @@
+{
+  "login": "Login",
+  "logout": "Logout",
+  "user": "User: {{name}}",
+  "GUEST":"Guest",
+  "CANDIDATE": "Candidate",
+  "EMPLOYEE": "Employee",
+  "ADMIN": "Admin",
+  "Yes": "Yes",
+  "No": "No",
+  "cancel": "cancel",
+  "submit": "submit"
+}

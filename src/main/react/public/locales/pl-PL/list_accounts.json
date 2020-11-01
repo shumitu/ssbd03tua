@@ -1,0 +1,17 @@
+{
+  "page_title": "Lista kont",
+  "email": "Email",
+  "active": "Aktywne",
+  "confirmed": "Potwierdzone",
+  "password_change": "Wymagana zmiana hasła",
+  "access levels": "Poziomy dostępu",
+  "deactivate":"Dezaktywuj",
+  "activate": "Aktywuj",
+  "send_confirmation": "Wyślij link potwierdzający",
+  "already_confirmed": "Konto potwierdzone",
+  "success": "Sukces",
+  "change_password": "Zmień hasło",
+  "phrase_input": "Fraza, która ma znaleźć się w imieniu lub nazwisku:",
+  "phrase_get": "Pobierz użytkowników",
+  "sending": "Wysyłanie linku..."
+}

@@ -1,0 +1,142 @@
+{
+  "db": {
+    "query": "Date could not have been exchanged with the server.",
+    "connection": "Cannot establish a connection to exchange data.",
+    "transaction": "There was a problem during operation execution."
+  },
+  "concurrency": {
+    "resource_modified": "Resource was modified in the meantime."
+  },
+  "account": {
+    "motto_too_long": "Motto must be shorter than 128 characters.",
+    "email_too_long": "Email must be shorter than 254 characters.",
+    "notfound": "Account doesn't exist.",
+    "password_too_short": "Password is too short.",
+    "email_taken": "This email is already taken.",
+    "activation_failed": "Account activation failed.",
+    "incorrect_motto": "Motto violates character policy.",
+    "wrong_firstname": "First name has to consist only of letters and must be shorter than 16 characters.",
+    "wrong_lastname": "Last name has to consist only of letters and must be shorter than 32 characters.",
+    "wrong_password": "Password cannot consist of white characters.",
+    "wrong_email": "Email has to be in correct format and cannot consist of white characters.",
+    "wrong_account": "Given account does not belong to logged user.",
+    "already_blocked": "Account is already blocked.",
+    "already_unblocked": "Account is already unblocked.",
+    "already_confirmed": "Account is already confirmed.",
+    "login_info_notfound": "Login info doesn't exist.",
+    "login_info_wrong_ip_address": "User ip address is not valid.",
+    "not_confirmed": "Given account was not confirmed."
+  },
+  "access_level": {
+    "already_granted": "Access level already granted.",
+    "not_recognized": "Access level not recognized.",
+    "not_granted": "This user does not have that access level."
+  },
+  "offer": {
+    "not_found": "Offer not found. Wrong id or offer has been removed.",
+    "already_closed": "Offer already closed.",
+    "already_open": "Offer already open.",
+    "has_applications": {
+      "delete": "Offer cannot be deleted because it already has applications.",
+      "edit": "Offer cannot be edited because it already has applications.",
+      "assign_starship": "Starship cannot be assigned because offer has applications."
+    },
+    "already_visible": "Offer is already visible.",
+    "already_hidden": "Offer is already hidden.",
+    "incorrect_description": "Description violates character policy.",
+    "incorrect_destination": "Destination violates character policy.",
+    "incorrect_dates_order": "Flight's start date must precede end date.",
+    "incorrect_start_date": "Given flight's start date is not correct.",
+    "incorrect_end_date": "Given flight's end date is not correct.",
+    "incorrect_price": "Given price is not correct.",
+    "incorrect_total_cost": "Given total cost is not correct.",
+    "incorrect_total_weight": "Given total weight is not correct.",
+    "delete_is_not_hidden": "Cannot delete offer that is not hidden.",
+    "delete_is_open": "Cannot delete offer that is open.",
+    "incorrect_starship_id": "Given starship id is not correct.",
+    "incorrect_starship_status": "Choosen starship is no longer operational.",
+    "too_long": "Given data is too long.",
+    "overlapping_offer": "Given time period for chosen starship overlaps with existing offer."
+  },
+  "candidate": {
+    "notfound": "Candidate doesn't exist."
+  },
+  "employee": {
+    "notfound": "Employee doesn't exist."
+  },
+  "change_password": {
+    "wrong_password": "Wrong password.",
+    "password_does_not_match": "The current password was incorrect.",
+    "password_is_the_same": "New password must not be the same as the old one.",
+    "cant_change_own_password": "You can't change your own password this way.",
+    "forbidden_email": "Operation failed. You have tried to change other user's password. This may be a session error.",
+    "old_password_too_short": "Old password must be at least 8 characters long.",
+    "new_password_too_short": "New password must be at least 8 characters long.",
+    "required": "Field is required."
+  },
+  "password_reset_token": {
+    "notfound": "Link is incorrect.",
+    "expired": "Link has expired."
+  },
+  "transaction": {
+    "repeated_transaction_rollback": "Operation couldn't have been completed despite multiple retires.",
+    "transaction_rollback": "Operation hasn't been completed."
+  },
+  "captcha": {
+    "incorrect": "ReCaptcha signature incorrect.",
+    "cant_access_validation_server": "Error connecting to reCaptcha validation server."
+  },
+  "filterPhrase": {
+    "too_long": "Phrase must be shorter than 32 characters.",
+    "incorrect": "Phrase violates character policy."
+  },
+  "validation": {
+    "required": "Field is required.",
+    "number": {
+      "incorrect": "Not a number.",
+      "integer": "Value must be an integer.",
+      "not_positive_value": "Value must be greater than 0."
+    },
+    "email": "Not a valid email!"
+  },
+  "starship": {
+    "name": {
+      "incorrect": "Name violates character policy.",
+      "too_long": "Name must be shorter than 32 characters.",
+      "too_short": "Name must contain at least 1 character.",
+      "taken": "Starship name is already taken."
+    },
+    "not_positive_value": "Value must be greater than 0.",
+    "year": {
+      "incorrect": "Year must be greater than 2000."
+    },
+    "assigned": "Cannot edit starship that is assigned to offer.",
+    "assigned_self": "This starship is already assigned to this offer.",
+    "already_assigned": "Starship is assigned to another offer at given time period.",
+    "already_active": "Starship is already active.",
+    "already_inactive": "Starship is already inactive.",
+    "not_found": "Starship with such an id doesn't exist.",
+    "not_operational": "Starship is disabled."
+  },
+  "application": {
+    "incorrect_motivational_letter": "Motivational letter violates character policy.",
+    "incorrect_examination_code": "Examination code violates character policy.",
+    "incorrect_weight": "Given weight is not correct.",
+    "not_found": "Application doesn't exist.",
+    "has_review": "Application has review.",
+    "examination_code_too_long": "Examination code must be shorter than 1024 characters.",
+    "offer_changed": "The offer you try to apply to have changed in a meantime.",
+    "offer_closed": "The offer you try to apply to is not accepting applications at the time.",
+    "already_applied": "You have already applied for this offer."
+  },
+  "review": {
+    "not_found": "Review doesn't exist.",
+    "already_exists": "The application has already been reviewed.",
+    "weight_limit_exceeded": "Can't comply - weight limit would be exceeded.",
+    "application_changed": "Application has changed - please verify again."
+  },
+  "category": {
+    "not_found": "Category doesn't exist."
+  },
+  "other": "Application encountered unexpected error."
+}

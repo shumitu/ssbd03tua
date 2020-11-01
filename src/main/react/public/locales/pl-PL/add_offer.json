@@ -1,0 +1,16 @@
+{
+  "page_title": "Dodaj ofertę",
+  "start_time": "Data rozpoczęcia lotu",
+  "end_time": "Data zakończenia lotu",
+  "destination": "Cel podróży",
+  "price": "Cena oferty [PLN]",
+  "description": "Opis oferty",
+  "starship_id": "Statek przypisany do oferty *",
+  "choose_starship": "Wybierz statek z listy",
+  "hidden": "Ukryta",
+  "open": "Otwarta",
+  "weight": "Całkowita waga [KG]",
+  "cost": "Całkowity koszt [PLN]",
+  "success": "Pomyślnie dodano nową ofertę",
+  "submit": "Dodaj ofertę"
+}

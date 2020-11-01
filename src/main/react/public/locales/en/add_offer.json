@@ -1,0 +1,15 @@
+{
+  "page_title": "Add offer",
+  "start_time": "Flight's start time",
+  "end_time": "Flight's end time",
+  "destination": "Destination",
+  "price": "Offer's price [PLN]",
+  "description": "Offer's description",
+  "starship_id": "Starship assigned to offer * ",
+  "choose_starship": "Choose starship from list",
+  "hidden": "Hidden",
+  "open": "Open",
+  "cost": "Total cost [PLN]",
+  "success": "Offer added successfully",
+  "submit": "Add offer"
+}

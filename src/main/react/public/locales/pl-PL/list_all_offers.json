@@ -1,0 +1,15 @@
+{
+  "page_title": "Wszystkie oferty",
+  "id": "Numer oferty",
+  "price": "Cena",
+  "hidden": "Ukryta przed Kandydatami",
+  "open": "Otwórz na zgłoszenia",
+  "close": "Zamknij na zgłoszenia",
+  "totalWeight": "Całkowita waga",
+  "destination": "Cel",
+  "show": "Pokaż",
+  "hide": "Ukryj",
+  "remove": "Usuń",
+  "open_offer": "Otwórz zapisy",
+  "assign_starship": "Zmień przypisany statek"
+}

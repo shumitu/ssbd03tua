@@ -1,0 +1,7 @@
+{
+  "search": "Wyszukaj z {{count}} pozycji...",
+  "page": "Strona",
+  "of": "z",
+  "show": "Pokaż {{pageSize}}",
+  "goToPage": "| Idź do strony: "
+}

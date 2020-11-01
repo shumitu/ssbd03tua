@@ -1,0 +1,7 @@
+{
+  "page_title": "Login details",
+  "last_successful_login": "Last successful login:",
+  "last_unsuccessful_login": "Last unsuccessful login:",
+  "no_unsuccessful_timestamp": "No unsuccessful login timestamp for account",
+  "no_successful_timestamp": "No successful login timestamp for account"
+}

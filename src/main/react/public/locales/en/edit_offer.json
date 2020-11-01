@@ -1,0 +1,11 @@
+{
+  "page_title": "Edit offer",
+  "start_time": "New flight's start time",
+  "end_time": "New flight's end time",
+  "destination": "New destination",
+  "price": "New offer's price [PLN]",
+  "description": "New offer's description",
+  "cost": "New total cost [PLN]",
+  "success": "Offer edited successfully",
+  "submit": "Edit offer"
+}

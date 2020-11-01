@@ -1,0 +1,11 @@
+{
+  "page_title": "Edytuj ofertę",
+  "start_time": "Nowa data rozpoczęcia lotu",
+  "end_time": "Nowa data zakończenia lotu",
+  "destination": "Nowy cel podróży",
+  "price": "Nowa cena oferty [PLN]",
+  "description": "Nowy opis oferty",
+  "cost": "Nowy całkowity koszt [PLN]",
+  "success": "Pomyślnie edytowano ofertę",
+  "submit": "Edytuj ofertę"
+}

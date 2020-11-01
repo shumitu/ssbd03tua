@@ -1,0 +1,7 @@
+{
+  "page_title": "Szczegóły logowania",
+  "last_successful_login": "Ostatnie udane logowanie:",
+  "last_unsuccessful_login": "Ostatnie nieudane logowanie:",
+  "no_unsuccessful_timestamp": "Brak znacznika nieudanego logowania dla konta",
+  "no_successful_timestamp": "Brak znacznika udanego logowania dla konta"
+}

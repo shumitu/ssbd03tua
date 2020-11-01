@@ -1,0 +1,15 @@
+{
+  "email": "Adres e-mail",
+  "motto": "Nowe życiowe motto",
+  "save": "Zapisz nowe dane",
+  "first_name": "Wprowadź nowe imię",
+  "last_name": "Wprowadź nowe nazwisko",
+  "employee_number": "Numer pracownika",
+  "page_title": "Edytuj konto",
+  "warning": {
+    "first_name_warning": "Imię może składać się tylko z liter!",
+    "last_name_warning": "Nazwisko może składać się tylko z liter!",
+    "motto_warning": "Motto nie może być puste!"
+  },
+  "success": "Zaktualizowano szczegóły konta."
+}

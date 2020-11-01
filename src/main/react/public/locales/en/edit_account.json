@@ -1,0 +1,15 @@
+{
+  "email": "E-mail address",
+  "motto": "Enter new life motto",
+  "save": "Save new data",
+  "first_name": "Enter new first name",
+  "last_name": "Enter new last name",
+  "employee_number": "Employee number",
+  "page_title": "Edit account",
+  "warning": {
+    "first_name_warning": "First name has to consist only of letters!",
+    "last_name_warning": "Last name has to consist only of letters!",
+    "motto_warning": "Motto cannot be empty!"
+  },
+  "success": "Details updated successfully."
+}

@@ -1,0 +1,11 @@
+{
+  "page_title": "My applications",
+  "success": "Success",
+  "id": "Application ID",
+  "creationDate": "Creation date",
+  "destination": "Destination",
+  "startTime": "Start Time",
+  "endTime": "End time",
+  "categoryName": "Category name",
+  "cancel": "Cancel my application"
+}

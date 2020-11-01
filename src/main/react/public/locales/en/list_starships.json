@@ -1,0 +1,11 @@
+{
+  "page_title": "Starships list",
+  "id": "Starship's number",
+  "name": "Starship's name",
+  "operational": "Operational",
+  "crew": "Crew capacity",
+  "production_year": "Production year",
+  "deactivate":"Deactivate",
+  "activate": "Activate",
+  "success": "Success"
+}

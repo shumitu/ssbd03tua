@@ -1,0 +1,7 @@
+{
+  "search": "Search from {{count}} items...",
+  "page": "Page",
+  "of": "of",
+  "show": "Show {{pageSize}}",
+  "goToPage": "| Go to page: "
+}

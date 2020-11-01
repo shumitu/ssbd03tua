@@ -1,0 +1,14 @@
+{
+  "login": "Zaloguj",
+  "logout": "Wyloguj",
+  "user": "Użytkownik: {{name}}",
+  "GUEST":"Gość",
+  "CANDIDATE": "Kandydat",
+  "EMPLOYEE": "Pracownik",
+  "ADMIN": "Administrator",
+  "Yes": "Tak",
+  "No": "Nie",
+  "cancel": "cofnij",
+  "submit": "potwierdź"
+}
+
