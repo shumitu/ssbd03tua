@@ -1,4 +1,4 @@
-export const SITE_KEY = '6Lctz_YUAAAAAPHbP3h4pJ0AZK9sdCFp_JxlTxPQ';
+export const SITE_KEY = '6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI';
 export const API_CONTEXT = '/api';
 export const LOCAL_FRONT_URL = 'http://localhost:3000';
 export const LOCAL_BACK_URL = 'https://localhost:8443';

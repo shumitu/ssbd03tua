@@ -32,7 +32,7 @@
     <env-entry>
         <env-entry-name>CAPTCHA_KEY</env-entry-name>
         <env-entry-type>java.lang.String</env-entry-type>
-        <env-entry-value>6Lctz_YUAAAAAFTmrFxcz1WI0blFGAAopDO8Q0_N</env-entry-value>
+        <env-entry-value>6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe</env-entry-value>
     </env-entry>
     <env-entry>
         <env-entry-name>CAPTCHA_ENDPOINT</env-entry-name>
