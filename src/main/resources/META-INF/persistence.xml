@@ -15,6 +15,9 @@
     <class>pl.lodz.p.it.ssbd2020.ssbd03.entities.Starship</class>
     <exclude-unlisted-classes>false</exclude-unlisted-classes>
     <shared-cache-mode>NONE</shared-cache-mode>
+    <properties>
+      <property name="eclipselink.target-database" value="MySQL"/>
+    </properties>
   </persistence-unit>
   <persistence-unit name="pl.lodz.p.it.ssbd2020_ssbd03_mokPU" transaction-type="JTA">
       <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
@@ -32,6 +35,9 @@
     <class>pl.lodz.p.it.ssbd2020.ssbd03.entities.Starship</class>
     <exclude-unlisted-classes>false</exclude-unlisted-classes>
     <shared-cache-mode>NONE</shared-cache-mode>
+    <properties>
+      <property name="eclipselink.target-database" value="MySQL"/>
+    </properties>
   </persistence-unit>
   <persistence-unit name="pl.lodz.p.it.ssbd2020_ssbd03_authPU" transaction-type="JTA">
       <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
@@ -39,5 +45,8 @@
     <class>pl.lodz.p.it.ssbd2020.ssbd03.entities.AuthView</class>
     <exclude-unlisted-classes>false</exclude-unlisted-classes>
     <shared-cache-mode>NONE</shared-cache-mode>
+    <properties>
+      <property name="eclipselink.target-database" value="MySQL"/>
+    </properties>
   </persistence-unit>
 </persistence>

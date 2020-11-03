@@ -22,12 +22,12 @@ import javax.xml.bind.annotation.XmlRootElement;
     @NamedQuery(name = "LoginInfo.findByLoginAttemptCounter", query = "SELECT l FROM LoginInfo l WHERE l.loginAttemptCounter = :loginAttemptCounter"),
     @NamedQuery(name = "LoginInfo.findByIpAddress", query = "SELECT l FROM LoginInfo l WHERE l.ipAddress = :ipAddress"),
     @NamedQuery(name = "LoginInfo.findByVersion", query = "SELECT l FROM LoginInfo l WHERE l.version = :version")})
-@SequenceGenerator(name="login_info_gen", sequenceName="login_info_id_seq", allocationSize=1)
+
 public class LoginInfo implements Serializable {
 
     private static final long serialVersionUID = 1L;
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "login_info_gen")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Basic(optional = false)
     @Column(name = "id")
     private Long id;
