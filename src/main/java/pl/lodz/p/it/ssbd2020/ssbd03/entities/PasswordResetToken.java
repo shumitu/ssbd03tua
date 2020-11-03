@@ -19,12 +19,12 @@ import java.util.Date;
     @NamedQuery(name = "PasswordResetToken.findByToken", query = "SELECT p FROM PasswordResetToken p WHERE p.token = :token"),
     @NamedQuery(name = "PasswordResetToken.findByExpirationTime", query = "SELECT p FROM PasswordResetToken p WHERE p.expirationTime = :expirationTime"),
     @NamedQuery(name = "PasswordResetToken.findByVersion", query = "SELECT p FROM PasswordResetToken p WHERE p.version = :version")})
-@SequenceGenerator(name="password_reset_token_gen", sequenceName="password_reset_token_id_seq", allocationSize=1)
+
 public class PasswordResetToken implements Serializable {
 
     private static final long serialVersionUID = 1L;
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "password_reset_token_gen")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Basic(optional = false)
     @Column(name = "id")
     private Long id;

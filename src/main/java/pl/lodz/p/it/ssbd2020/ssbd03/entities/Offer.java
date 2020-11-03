@@ -34,12 +34,12 @@ import javax.xml.bind.annotation.XmlTransient;
     @NamedQuery(name = "Offer.findByOverlappingForEditing", query = "SELECT count(o) FROM Offer o WHERE o.starship = :starship" +
                                     " AND NOT (o.flightStartTime > :endTime OR o.flightEndTime < :startTime)" +
                                     " AND NOT o.id = :id")})
-@SequenceGenerator(name="offer_gen", sequenceName="offer_id_seq", allocationSize=1)
+
 public class Offer implements Serializable {
 
     private static final long serialVersionUID = 1L;
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "offer_gen")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Basic(optional = false)
     @Column(name = "id")
     private Long id;

@@ -22,12 +22,11 @@ import javax.xml.bind.annotation.XmlRootElement;
     @NamedQuery(name = "Application.findByMotivationalLetter", query = "SELECT a FROM Application a WHERE a.motivationalLetter = :motivationalLetter"),
     @NamedQuery(name = "Application.findByCreatedTime", query = "SELECT a FROM Application a WHERE a.createdTime = :createdTime"),
     @NamedQuery(name = "Application.findByVersion", query = "SELECT a FROM Application a WHERE a.version = :version")})
-@SequenceGenerator(name="application_gen", sequenceName="application_id_seq", allocationSize=1)
 public class Application implements Serializable {
 
     private static final long serialVersionUID = 1L;
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "application_gen")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Basic(optional = false)
     @Column(name = "id")
     private Long id;

@@ -22,7 +22,6 @@ import javax.xml.bind.annotation.XmlRootElement;
         @NamedQuery(name = "AccessLevel.findByLevel", query = "SELECT a FROM AccessLevel a WHERE a.level = :level"),
         @NamedQuery(name = "AccessLevel.findByActive", query = "SELECT a FROM AccessLevel a WHERE a.active = :active"),
         @NamedQuery(name = "AccessLevel.findByVersion", query = "SELECT a FROM AccessLevel a WHERE a.version = :version")})
-@SequenceGenerator(name="access_level_gen", sequenceName="access_level_id_seq", allocationSize=1)
 public class AccessLevel implements Serializable {
 
     public static final String ADMIN = "ADMIN";
@@ -31,7 +30,7 @@ public class AccessLevel implements Serializable {
 
     private static final long serialVersionUID = 1L;
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "access_level_gen")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Basic(optional = false)
     @Column(name = "id")
     protected Long id;

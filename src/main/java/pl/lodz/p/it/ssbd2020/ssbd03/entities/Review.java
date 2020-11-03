@@ -16,12 +16,12 @@ import javax.xml.bind.annotation.XmlRootElement;
     @NamedQuery(name = "Review.findById", query = "SELECT r FROM Review r WHERE r.id = :id"),
     @NamedQuery(name = "Review.findByApplication", query = "SELECT r from Review  r WHERE r.application= :application"),
     @NamedQuery(name = "Review.findByVersion", query = "SELECT r FROM Review r WHERE r.version = :version")})
-@SequenceGenerator(name="review_gen", sequenceName="review_id_seq", allocationSize=1)
+
 public class Review implements Serializable {
 
     private static final long serialVersionUID = 1L;
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "review_gen")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Basic(optional = false)
     @Column(name = "id")
     private Long id;

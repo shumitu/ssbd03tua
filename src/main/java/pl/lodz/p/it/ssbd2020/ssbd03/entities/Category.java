@@ -19,12 +19,12 @@ import javax.xml.bind.annotation.XmlTransient;
     @NamedQuery(name = "Category.findById", query = "SELECT c FROM Category c WHERE c.id = :id"),
     @NamedQuery(name = "Category.findByName", query = "SELECT c FROM Category c WHERE c.name = :name"),
     @NamedQuery(name = "Category.findByVersion", query = "SELECT c FROM Category c WHERE c.version = :version")})
-@SequenceGenerator(name="category_gen", sequenceName="category_id_seq", allocationSize=1)
+
 public class Category implements Serializable {
 
     private static final long serialVersionUID = 1L;
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "category_gen")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Basic(optional = false)
     @Column(name = "id")
     private Long id;

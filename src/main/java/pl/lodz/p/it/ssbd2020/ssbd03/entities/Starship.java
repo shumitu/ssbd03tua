@@ -27,12 +27,11 @@ import javax.xml.bind.annotation.XmlTransient;
     @NamedQuery(name = "Starship.findByVersion", query = "SELECT s FROM Starship s WHERE s.version = :version"),
     @NamedQuery(name = "Starship.findAllOperational", query = "SELECT s FROM Starship s where s.operational = true")})
 
-@SequenceGenerator(name="starship_gen", sequenceName="starship_id_seq", allocationSize=1)
 public class Starship implements Serializable {
 
     private static final long serialVersionUID = 1L;
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "starship_gen")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Basic(optional = false)
     @Column(name = "id")
     private Long id;

@@ -31,12 +31,11 @@ import java.util.Optional;
             "LIKE lower(concat('%', :phrase ,'%')) OR lower(c.lastName) LIKE lower(concat('%', :phrase ,'%')))" +
             "AND c.active = true")})
 
-@SequenceGenerator(name="account_gen", sequenceName="account_id_seq", allocationSize=1)
 public class Account implements Serializable {
 
     private static final long serialVersionUID = 1L;
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "account_gen")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Basic(optional = false)
     @Column(name = "id")
     private Long id;
