@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datasources xmlns="http://www.jboss.org/ironjacamar/schema">
+    <datasource jndi-name="java:/jdbc/ssbd03authDS">
+        <driver>org.mariadb.jdbc.Driver</driver>
+        <connection-url>jdbc:mysql://localhost:3306/ssbd03</connection-url>
+        <security>
+            <user-name>root</user-name>
+            <password>ssbd03tua</password>
+        </security>
+    </datasource>
+    <datasource jndi-name="java:/jdbc/ssbd03mokDS">
+        <driver>org.mariadb.jdbc.Driver</driver>
+        <connection-url>jdbc:mysql://localhost:3306/ssbd03</connection-url>
+        <security>
+            <user-name>root</user-name>
+            <password>ssbd03tua</password>
+        </security>
+    </datasource>
+    <datasource jndi-name="java:/jdbc/ssbd03molDS">
+        <driver>org.mariadb.jdbc.Driver</driver>
+        <connection-url>jdbc:mysql://localhost:3306/ssbd03</connection-url>
+        <security>
+            <user-name>root</user-name>
+            <password>ssbd03tua</password>
+        </security>
+    </datasource>
+</datasources>
