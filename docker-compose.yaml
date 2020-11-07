@@ -10,4 +10,11 @@ services:
     environment:
       - MYSQL_DATABASE=ssbd03
       - MYSQL_ROOT_PASSWORD=ssbd03tua
-
+  wildfly:
+    build:
+      context: ./
+      dockerfile: ./docker/wildfly/dockerfile
+    ports:
+      - 8443:8443
+      - 9990:9990
+    container_name: wildfly
