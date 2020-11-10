@@ -20,14 +20,13 @@ services:
       - "8443"
     container_name: wildfly
     environment:
-        - VIRTUAL_HOST=35.234.150.254
+        - VIRTUAL_HOST=tua2020-02.tk
+        - VIRTUAL_PORT=8443
         - VIRTUAL_PROTO=https
-        - VIRUTAL_PORT=8443
   nginx-proxy:
     image: jwilder/nginx-proxy
     ports:
-      - "80:8843"
-      - "8843:80"
+      - "80:80"
     volumes:
       - /var/run/docker.sock:/tmp/docker.sock:ro
 
