@@ -32,7 +32,7 @@ services:
       - "443:443"
     volumes:
       - /var/run/docker.sock:/tmp/docker.sock:ro
-      - src/utils/certs:/etc/nginx/certs
+      - ./src/utils/certs:/etc/nginx/certs
 
 volumes:
   dbvolume:
