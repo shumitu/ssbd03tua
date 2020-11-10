@@ -4,18 +4,33 @@ services:
     build:
       context: ./
       dockerfile: ./docker/mariadb/dockerfile
-    ports:
-      - 3306:3306
+    expose:
+      - "3306"
     container_name: mariadb
     environment:
       - MYSQL_DATABASE=ssbd03
       - MYSQL_ROOT_PASSWORD=ssbd03tua
+    volumes:
+      - dbvolume:/var/lib/mysql
   wildfly:
     build:
       context: ./
       dockerfile: ./docker/wildfly/dockerfile
-    ports:
-      - 8443:8443
-      - 8080:8080
-      - 9990:9990
+    expose:
+      - "8443"
     container_name: wildfly
+    environment:
+        - VIRTUAL_HOST=35.234.150.254
+        - VIRTUAL_PROTO=https
+        - VIRUTAL_PORT=8443
+  nginx-proxy:
+    image: jwilder/nginx-proxy
+    ports:
+      - "80:8843"
+      - "8843:80"
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+
+volumes:
+  dbvolume:
+
