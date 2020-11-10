@@ -27,9 +27,10 @@ services:
     image: jwilder/nginx-proxy
     ports:
       - "80:80"
+      - "443:443"
     volumes:
       - /var/run/docker.sock:/tmp/docker.sock:ro
+      - /root/ssbd03tua/src/utils/certs:/etc/nginx/certs
 
 volumes:
   dbvolume:
-
