@@ -24,15 +24,13 @@ services:
         - VIRTUAL_PORT=8443
         - VIRTUAL_PROTO=https
   nginx-proxy:
-    build:
-      context: ./
     image: jwilder/nginx-proxy
     ports:
       - "80:80"
       - "443:443"
     volumes:
       - /var/run/docker.sock:/tmp/docker.sock:ro
-      - ./src/utils/certs:/etc/nginx/certs
+      - /root/ssbd03tua/src/utils/certs:/etc/nginx/certs
 
 volumes:
   dbvolume:
