@@ -6,6 +6,8 @@ services:
       dockerfile: ./docker/mariadb/dockerfile
     expose:
       - "3306"
+    networks:
+      - tua-network
     container_name: mariadb
     environment:
       - MYSQL_DATABASE=ssbd03
@@ -18,6 +20,8 @@ services:
       dockerfile: ./docker/wildfly/dockerfile
     expose:
       - "8443"
+    networks:
+      - tua-network
     container_name: wildfly
     environment:
         - VIRTUAL_HOST=tua2020-02.tk
@@ -28,9 +32,13 @@ services:
     ports:
       - "80:80"
       - "443:443"
+    networks:
+      - tua-network
     volumes:
       - /var/run/docker.sock:/tmp/docker.sock:ro
       - /root/ssbd03tua/src/utils/certs:/etc/nginx/certs
 
 volumes:
   dbvolume:
+networks:
+  tua-network:
