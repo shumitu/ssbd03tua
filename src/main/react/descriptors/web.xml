@@ -9,16 +9,6 @@
         <error-code>404</error-code>
         <location>/index.html</location>
     </error-page>
-    <security-constraint>
-        <display-name>HttpsPolicy</display-name>
-        <web-resource-collection>
-            <web-resource-name>Entire application</web-resource-name>
-            <url-pattern>/*</url-pattern>
-        </web-resource-collection>
-        <user-data-constraint>
-            <transport-guarantee>CONFIDENTIAL</transport-guarantee>
-        </user-data-constraint>
-    </security-constraint>
     <env-entry>
         <env-entry-name>URL</env-entry-name>
         <env-entry-type>java.lang.String</env-entry-type>
