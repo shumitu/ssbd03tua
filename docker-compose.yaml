@@ -3,7 +3,7 @@ services:
   mariadb:
     build:
       context: ./
-      dockerfile: ./docker/mariadb/dockerfile
+      dockerfile: dockerfile
     expose:
       - "3306"
     networks:

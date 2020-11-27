@@ -1,0 +1,11 @@
+FROM maven:3.6.3-jdk-11 AS MVN
+COPY pom.xml /tmp/
+COPY src/ /tmp/src/
+WORKDIR /tmp/
+RUN mvn install
+ 
+FROM jboss/wildfly
+RUN /opt/jboss/wildfly/bin/add-user.sh admin ssbd03tua --silent
+CMD ["/opt/jboss/wildfly/bin/standalone.sh", "-b", "0.0.0.0", "-bmanagement", "0.0.0.0"]
+COPY --from=MVN /tmp/target/ssbd03.war /opt/jboss/wildfly/standalone/deployments/
+ADD docker/mariadb-java-client-2.6.2.jar /opt/jboss/wildfly/standalone/deployments/
