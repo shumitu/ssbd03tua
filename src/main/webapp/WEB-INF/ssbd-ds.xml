@@ -3,7 +3,7 @@
     <datasource jndi-name="java:/jdbc/ssbd03authDS" pool-name="ssbd03authDS">
         <driver>mariadb-java-client-2.6.2.jar</driver>
         <driver-class>org.mariadb.jdbc.Driver</driver-class>
-        <connection-url>jdbc:mysql://mariadb:3306/ssbd03</connection-url>
+        <connection-url>jdbc:mysql://172.30.59.117:3306/ssbd03</connection-url>
         <security>
             <user-name>ssbd03auth</user-name>
             <password>autH@ssbd03</password>
@@ -12,7 +12,7 @@
     <datasource jndi-name="java:/jdbc/ssbd03mokDS" pool-name="ssbd03mokDS">
         <driver>mariadb-java-client-2.6.2.jar</driver>
         <driver-class>org.mariadb.jdbc.Driver</driver-class>
-        <connection-url>jdbc:mysql://mariadb:3306/ssbd03</connection-url>
+        <connection-url>jdbc:mysql://172.30.59.117:3306/ssbd03</connection-url>
         <security>
             <user-name>ssbd03mok</user-name>
             <password>moK@ssbd03</password>
@@ -21,7 +21,7 @@
     <datasource jndi-name="java:/jdbc/ssbd03molDS" pool-name="ssbd03molDS">
         <driver>mariadb-java-client-2.6.2.jar</driver>
         <driver-class>org.mariadb.jdbc.Driver</driver-class>
-        <connection-url>jdbc:mysql://mariadb:3306/ssbd03</connection-url>
+        <connection-url>jdbc:mysql://172.30.59.117:3306/ssbd03</connection-url>
         <security>
             <user-name>ssbd03mol</user-name>
             <password>moL@ssbd03</password>
